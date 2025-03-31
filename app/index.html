@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Svelte</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="flex flex-col">
+      <iframe
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/kIeVCoAkOn0"
+        title="Did Ford Kill The Shelby Mustang With The GT500? | Top Gear Classic"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <div id="title" class="bg-red-500 style-scope ytd-watch-metadata">
+        <ytd-badge-supported-renderer
+          class="style-scope ytd-watch-metadata"
+          system-icons=""
+          enable-refresh-web=""
+          hidden=""
+          ><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat
+            id="repeat"
+            as="badge"
+            class="style-scope ytd-badge-supported-renderer"
+            ><template is="dom-repeat"></template></dom-repeat
+        ></ytd-badge-supported-renderer>
+        <h1 class="style-scope ytd-watch-metadata">
+          <yt-formatted-string
+            force-default-style=""
+            class="style-scope ytd-watch-metadata"
+            title="Did Ford Kill The Shelby Mustang With The GT500? | Top Gear Classic"
+            >Did Ford Kill The Shelby Mustang With The GT500? | Top Gear
+            Classic</yt-formatted-string
+          >
+        </h1>
+        <ytd-badge-supported-renderer
+          class="style-scope ytd-watch-metadata"
+          system-icons=""
+          enable-refresh-web=""
+          hidden=""
+          ><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat
+            id="repeat"
+            as="badge"
+            class="style-scope ytd-badge-supported-renderer"
+            ><template is="dom-repeat"></template></dom-repeat
+        ></ytd-badge-supported-renderer>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
